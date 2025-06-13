@@ -1,4 +1,5 @@
 import "./page.css";
+import "../styles/global.css"
 import Banner from "./sections/banner/banner";
 import Races from "./sections/races/races";
 import About from "./sections/about/about";
