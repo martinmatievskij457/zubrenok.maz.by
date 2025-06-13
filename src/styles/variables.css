@@ -1,0 +1,9 @@
+:root {
+    --main-color: rgba(255, 255, 255, 1);
+    --secondary-color: rgba(108, 132, 103, 1);
+    --dark-secondary-color: rgba(74, 90, 70, 1);
+    --black-color: rgba(0, 0, 0, 1);
+    --light-black-color: rgba(26, 36, 24, 1);
+    --gray-color: rgba(170, 170, 170, 1);
+    --light-gray-color: rgba(255, 255, 255, 0.4)
+}

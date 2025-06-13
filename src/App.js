@@ -1,5 +1,5 @@
 import React from "react";
-import Page from "./page/Page"
+import Page from "./page/page"
 
 function App() {
     return <Page />
