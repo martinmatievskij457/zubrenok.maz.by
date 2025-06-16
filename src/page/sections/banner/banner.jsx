@@ -22,7 +22,7 @@ function Banner() {
                 <li className="list_item">
                   <a href="#races">График заездов</a>
                 </li>
-                <li className="list_item">Распорядок дня</li>
+                <li className="list_item"><a href="#routine">Распорядок дня</a></li>
                 <li className="list_item_img">
                   <img src={eye} alt="eye"></img>
                 </li>

@@ -1,0 +1,44 @@
+@import url("../../../styles/variables.css");
+
+.routine {
+    height: 10rem;
+    background-image: url("../../../assets/images/Line2.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    height: 6rem;
+    width: 60rem;
+    background-color: var(--secondary-color);
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper_title_text {
+    font-size: 1.8rem;
+}
+
+.file_label {
+    font-size: 1.2rem;
+}
+
+.wrapper_file {
+    width: 9rem;
+    border: 1px solid var(--main-color);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.wrapper_file:hover {
+    cursor: pointer;
+    opacity: 0.8;    
+}
