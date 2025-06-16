@@ -1,6 +1,9 @@
 import "./banner.css";
 import logo from "../../../assets/images/logo.png";
 import eye from "../../../assets/images/eye.png";
+import youtube from "../../../assets/images/youtube.png";
+import instagram from "../../../assets/images/instagram.png";
+import telegram from "../../../assets/images/telegram.png";
 
 function Banner() {
   return (
@@ -10,15 +13,17 @@ function Banner() {
           <div className="header_content">
             <nav className="navigate">
               <ul className="list">
-                <li className="list_item">О нас</li>
+                <li className="list_item"><a href="#about">О нас</a></li>
                 <li className="list_item">Вопросы</li>
                 <li className="list_item">Палаточный лагерь</li>
-                <li className="list_item">
+                <li className="list_item_img">
                   <img src={logo} alt="logo"></img>
                 </li>
-                <li className="list_item">График заездов</li>
-                <li className="list_item">Распорядок дня</li>
                 <li className="list_item">
+                  <a href="#races">График заездов</a>
+                </li>
+                <li className="list_item">Распорядок дня</li>
+                <li className="list_item_img">
                   <img src={eye} alt="eye"></img>
                 </li>
               </ul>
@@ -38,9 +43,26 @@ function Banner() {
               опытные воспитатели. Все это происходит на чистом воздухе, в 35 км
               от Минска!
             </div>
-            <div className="button">
-              <button>Купить путёвку</button>
+            <div className="button_wrapper">
+              <button className="button">Купить путёвку</button>
             </div>
+          </div>
+        </div>
+        <div className="networks_wrapper">
+          <div className="networks_logo">
+            <a href="https://www.youtube.com/channel/UCetonifniEfk9ZX1mCiM6Sw">
+              <img src={youtube} alt="Youtube Logo" />
+            </a>
+          </div>
+          <div className="networks_logo">
+            <a href="https://www.instagram.com/zubrenok_maz/">
+              <img src={instagram} alt="Instagam Logo" />
+            </a>
+          </div>
+          <div className="networks_logo">
+            <a href="https://t.me/zubrenok_maz_official">
+              <img src={telegram} alt="Telegram Logo" />
+            </a>
           </div>
         </div>
       </div>

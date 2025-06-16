@@ -1,0 +1,39 @@
+@import url("../../../styles/variables.css");
+
+.races {
+    background-color: var(--secondary-color);
+    border-radius: 2rem;
+    margin-left: 8.75rem;
+    margin-right: 8.75rem; 
+    height: 18rem;
+    margin-top: -6rem;
+}
+
+.races_content {
+    height: 18rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.races_title {
+    font-size: 1.8rem;
+    width: 22rem;
+}
+
+.races_info {
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.shift_wrapper {
+    margin-right: 5rem;
+}
+
+.shift_text {
+    margin-bottom: 1rem;
+}
+
+.date_text {
+    margin-bottom: 1rem;
+}
