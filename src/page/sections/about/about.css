@@ -3,6 +3,7 @@
     height: 40rem;
     padding-left: 8.75rem;
     padding-right: 8.75rem;
+    margin-bottom: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,6 +19,10 @@
     margin-right: 15rem;
 }
 
+.title_text {
+    font-size: 2.4rem;
+}
+
 .block_1_img_wrapper {
     width: 50%;
     display: flex;
@@ -26,4 +31,115 @@
 
 .block_1_img {
     margin: 0.2rem;
+}
+
+.about_block_2 {
+    height: 30rem;
+}
+
+.rectangel1 {
+   position: relative;
+   top: -18rem;
+   z-index: 120;
+}
+
+.rectangle {
+    width: 20%;
+    position: relative;
+    top: -8.15rem;
+    left: 6rem;
+    z-index: 110;
+}
+
+.picture {
+    width: 20%;
+    position: relative;
+    top: -15.85rem;
+    left: 7rem;
+    z-index: 100;
+}
+
+.block_2_text {
+    background-color: var(--secondary-color); 
+    position: relative;
+    top: -20.5rem;
+    height: 30rem;
+    padding-left: 8.75rem;
+    padding-right: 8.75rem;
+}
+
+.block_2_title1 {
+    margin-top: 2rem;
+    font-size: 2.4rem;
+    position: relative;
+    top: 2rem;
+}
+
+.block_2_title2 {
+    font-size: 2.4rem;
+    position: relative;
+    top: 2rem;
+}
+
+.block_2_content {
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_block_3 {
+    height: 45rem;
+    color: var(--black-color);
+    padding-left: 8.75rem;
+    padding-right: 8.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.block_3_img {  
+    position: relative;
+    top: -5rem;
+    left: 7.25rem;  
+    z-index: 140;
+}
+
+.block_3_title {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title_up {
+    height: 15rem;
+    width: 38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title_down {
+    height: 15rem;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title_up_text {
+    font-size: 2.4rem;
+}
+
+.title_up_info {
+    font-size: 1.2rem;
+}
+
+.title_down_text {
+    font-size: 2.4rem;
+}
+
+.title_down_info {
+    font-size: 1.2rem;
 }

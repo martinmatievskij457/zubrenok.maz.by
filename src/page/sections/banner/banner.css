@@ -66,6 +66,7 @@
 }
 
 .networks_wrapper{
+    width: 3%;
     position: relative;
     top: 3rem;
     right: -84rem;

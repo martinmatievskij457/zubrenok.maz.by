@@ -1,0 +1,16 @@
+.place_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    text-align: center;
+}
+
+.place_img {
+    margin-bottom: 1rem;
+}
+
+.place_label {
+    font-size: 1.6rem;
+}
