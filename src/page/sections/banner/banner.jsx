@@ -13,16 +13,24 @@ function Banner() {
           <div className="header_content">
             <nav className="navigate">
               <ul className="list">
-                <li className="list_item"><a href="#about">О нас</a></li>
-                <li className="list_item">Вопросы</li>
-                <li className="list_item">Палаточный лагерь</li>
+                <li className="list_item">
+                  <a href="#about">О нас</a>
+                </li>
+                <li className="list_item">
+                  <a href="#questions">Вопросы</a>
+                </li>
+                <li className="list_item">
+                  <a href="#tentcamp">Палаточный лагерь</a>
+                </li>
                 <li className="list_item_img">
                   <img src={logo} alt="logo"></img>
                 </li>
                 <li className="list_item">
                   <a href="#races">График заездов</a>
                 </li>
-                <li className="list_item"><a href="#routine">Распорядок дня</a></li>
+                <li className="list_item">
+                  <a href="#routine">Распорядок дня</a>
+                </li>
                 <li className="list_item_img">
                   <img src={eye} alt="eye"></img>
                 </li>
@@ -50,17 +58,17 @@ function Banner() {
         </div>
         <div className="networks_wrapper">
           <div className="networks_logo">
-            <a href="https://www.youtube.com/channel/UCetonifniEfk9ZX1mCiM6Sw">
+            <a href="https://www.youtube.com/channel/UCetonifniEfk9ZX1mCiM6Sw" target="_blank">
               <img src={youtube} alt="Youtube Logo" />
             </a>
           </div>
           <div className="networks_logo">
-            <a href="https://www.instagram.com/zubrenok_maz/">
+            <a href="https://www.instagram.com/zubrenok_maz/" target="_blank">
               <img src={instagram} alt="Instagam Logo" />
             </a>
           </div>
           <div className="networks_logo">
-            <a href="https://t.me/zubrenok_maz_official">
+            <a href="https://t.me/zubrenok_maz_official" target="_blank">
               <img src={telegram} alt="Telegram Logo" />
             </a>
           </div>

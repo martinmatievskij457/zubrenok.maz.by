@@ -1,0 +1,20 @@
+.questions {
+    height: auto;
+    background-color: var(--secondary-color);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 8.75rem;
+    padding-right: 8.75rem;
+}
+
+.questions_title_text {
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+}
+
+.combobox_wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
