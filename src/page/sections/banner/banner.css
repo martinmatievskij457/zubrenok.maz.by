@@ -2,54 +2,95 @@
 
 .banner {
     width: 100%;
-    height: 61rem;
+    min-height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../../assets/images/bg\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    padding-left: 8.75rem;
-    padding-right: 8.75rem; 
-}
-
-
-.header {
-    border-bottom: 1px solid;
-    height: 6rem;    
-    
-    position: fixed;    
-    left: 8.75rem;
-    right: 8.75rem;
-}
-
-.list {    
-    height: 6rem;
+    background-position: center center;
+    padding-left: 7%;
+    padding-right: 7%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner__header {
+    border-bottom: 1px solid;
+    border: 2px solid red;
+    width: 100%;    
+    min-height: 10vh;
+}
+
+.navigate-list {    
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
 }
 
-.list_item:hover {
+.navigate-list__item {
+    /* border: 1px solid; */
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.navigate-list__img {
+    /* border: 1px solid; */
+    min-height: 10vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 100%;
+}
+
+.navigate-list__item:hover {
     cursor: pointer;
     opacity: 0.7;
 }
 
-.title {
-    width: 60%;
-    position: relative;
-    top: 18rem
+@media (max-width: 1200px) {
+    .banner__header {
+        min-height: 5vh;
+    }    
+
+    .navigate-list {
+        min-height: 5vh;
+    }
+
+    .navigate-list__item {
+        min-height: 5vh;
+    }
+
+    .navigate-list__img {
+        min-height: 5vh;
+    }    
+
+    .img {
+        width: 70%;
+    }
 }
 
-.title_text {
+.banner__title {
+    text-align: justify;
+    width: 46%;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner__title-text {
     font-size: 2.4rem;
-    margin-bottom: 2rem;
 }
 
-.info {
-    margin-bottom: 2rem;
-}
-
-.button {
+.banner__button {
     border-radius: 0.7rem;
     width: 7rem;
     height: 2rem;
@@ -58,7 +99,7 @@
     border-color: var(--main-color);
 }
 
-.button:hover {
+.banner__button:hover {
     cursor: pointer;
     background-color: var(--main-color);
     color: var(--black-color);
@@ -85,6 +126,121 @@
 .networks_logo:hover {
     cursor: pointer;
 }
+
+
+
+/* @media (max-width: 1440px) {
+    .banner {
+        min-height: 90vh;
+    }
+
+    .banner__header {
+        min-height: 9vh;
+    }
+
+    .navigate-list {
+        min-height: 9vh;
+    }
+
+    .navigate-list__item {
+        min-height: 9vh;
+        font-size: 0.9rem;
+    }
+
+    .navigate-list__img {
+        min-height: 9vh;
+    }
+
+    .img {
+        width: 90%;
+    }
+} */
+
+
+
+/* @media (max-width: 1024px) {
+    .banner {
+        min-height: 70vh;
+    }
+
+    .banner__header {
+        min-height: 7vh;
+    }
+
+    .navigate-list {
+        min-height: 7vh;
+    }
+
+    .navigate-list__item {
+        min-height: 7vh;
+        font-size: 0.7rem;
+    }
+
+    .navigate-list__img {
+        min-height: 7vh;
+    }
+
+    .img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        min-height: 50vh;
+    }
+
+    .banner__header {
+        min-height: 6vh;
+    }
+
+    .navigate-list {
+        min-height: 6vh;
+    }
+
+    .navigate-list__item {
+        min-height: 6vh;
+        font-size: 0.5rem;
+    }
+
+    .navigate-list__img {
+        min-height: 6vh;
+    }
+
+    .img {
+        width: 50%;
+    }
+}
+*/ 
+
+/* @media (max-width: 576px) and (orientation: portrait) {
+    /* .banner {
+        
+    } */
+
+    /* .banner__header {
+        min-height: 5vh;
+    }
+
+    .navigate-list {
+        min-height: 5vh;
+    }
+
+    .navigate-list__item {
+        min-height: 5vh;
+        font-size: 0.3rem;
+    }
+
+    .navigate-list__img {
+        min-height: 5vh;
+    }
+
+    .img {
+        width: 30%;
+    } 
+} 
+*/ 
+
 
 
 

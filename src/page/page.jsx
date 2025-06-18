@@ -16,15 +16,15 @@ function Page() {
         <main className="main">
           <div className="main_content">
             <Banner />
-            <Races />
+            {/* <Races />
             <About />
             <Routine />
             <Tentcamp />
             <Questions />
-            <News />
+            <News /> */}
           </div>
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );

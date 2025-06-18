@@ -1,79 +1,86 @@
 import "./banner.css";
-import logo from "../../../assets/images/logo.png";
+import zubrenokLogo from "../../../assets/images/logo.png";
 import eye from "../../../assets/images/eye.png";
 import youtube from "../../../assets/images/youtube.png";
 import instagram from "../../../assets/images/instagram.png";
 import telegram from "../../../assets/images/telegram.png";
+import { useState } from "react";
 
 function Banner() {
+  const [isMenu, setIsMenu] = useState(false);
+
   return (
     <div className="banner">
-      <div className="banner_content">
-        <header className="header">
-          <div className="header_content">
-            <nav className="navigate">
-              <ul className="list">
-                <li className="list_item">
-                  <a href="#about">О нас</a>
-                </li>
-                <li className="list_item">
-                  <a href="#questions">Вопросы</a>
-                </li>
-                <li className="list_item">
-                  <a href="#tentcamp">Палаточный лагерь</a>
-                </li>
-                <li className="list_item_img">
-                  <img src={logo} alt="logo"></img>
-                </li>
-                <li className="list_item">
-                  <a href="#races">График заездов</a>
-                </li>
-                <li className="list_item">
-                  <a href="#routine">Распорядок дня</a>
-                </li>
-                <li className="list_item_img">
-                  <img src={eye} alt="eye"></img>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </header>
-        <div className="title">
-          <div className="title_content">
-            <div className="title_text">
-              ДЕТСКИЙ ОЗДОРОВИТЕЛЬНЫЙ ЛАГЕРЬ "ЗУБРЕНОК"
-            </div>
-            <div className="info">
-              Работники о/л «Зубренок» сделали все, чтобы детям в лагере было
-              уютно, как дома. Для этого на протяжении всей летней смены
-              организовываются образовательно-развлекательные и спортивные
-              мероприятия (игры, конкурсы и соревнования), с детьми работают
-              опытные воспитатели. Все это происходит на чистом воздухе, в 35 км
-              от Минска!
-            </div>
-            <div className="button_wrapper">
-              <button className="button">Купить путёвку</button>
-            </div>
-          </div>
+      <header className="banner__header">
+        {isMenu ? (
+          <h1></h1>
+        ) : (
+          <nav className="banner__navigate">
+            <ul className="navigate-list">
+              <li className="navigate-list__item">
+                <a href="#about">О нас</a>
+              </li>
+              <li className="navigate-list__item">
+                <a href="#questions">Вопросы</a>
+              </li>
+              <li className="navigate-list__item">
+                <a href="#tentcamp">Палаточный лагерь</a>
+              </li>
+              <li className="navigate-list__img">
+                <img
+                  src={zubrenokLogo}
+                  alt="Zubrenok Logo"
+                  className="img"
+                ></img>
+              </li>
+              <li className="navigate-list__item">
+                <a href="#races">График заездов</a>
+              </li>
+              <li className="navigate-list__item">
+                <a href="#routine">Распорядок дня</a>
+              </li>
+              <li className="navigate-list__img">
+                <img src={eye} alt="Eye" className="img"></img>
+              </li>
+            </ul>
+          </nav>
+        )}
+      </header>
+      {/* <div className="banner__title">
+        <div className="banner__title-text">
+          ДЕТСКИЙ ОЗДОРОВИТЕЛЬНЫЙ ЛАГЕРЬ "ЗУБРЕНОК"
         </div>
-        <div className="networks_wrapper">
-          <div className="networks_logo">
-            <a href="https://www.youtube.com/channel/UCetonifniEfk9ZX1mCiM6Sw" target="_blank">
-              <img src={youtube} alt="Youtube Logo" />
-            </a>
-          </div>
-          <div className="networks_logo">
-            <a href="https://www.instagram.com/zubrenok_maz/" target="_blank">
-              <img src={instagram} alt="Instagam Logo" />
-            </a>
-          </div>
-          <div className="networks_logo">
-            <a href="https://t.me/zubrenok_maz_official" target="_blank">
-              <img src={telegram} alt="Telegram Logo" />
-            </a>
-          </div>
+        <div className="banner__description">
+          Работники о/л «Зубренок» сделали все, чтобы детям в лагере было уютно,
+          как дома. Для этого на протяжении всей летней смены организовываются
+          образовательно-развлекательные и спортивные мероприятия (игры,
+          конкурсы и соревнования), с детьми работают опытные воспитатели. Все
+          это происходит на чистом воздухе, в 35 км от Минска!
+        </div>
+        <div className="banner__button-wrapper">
+          <button className="banner__button">Купить путёвку</button>
         </div>
       </div>
+      <div className="networks_wrapper">
+        <div className="networks_logo">
+          <a
+            href="https://www.youtube.com/channel/UCetonifniEfk9ZX1mCiM6Sw"
+            target="_blank"
+          >
+            <img src={youtube} alt="Youtube Logo" />
+          </a>
+        </div>
+        <div className="networks_logo">
+          <a href="https://www.instagram.com/zubrenok_maz/" target="_blank">
+            <img src={instagram} alt="Instagam Logo" />
+          </a>
+        </div>
+        <div className="networks_logo">
+          <a href="https://t.me/zubrenok_maz_official" target="_blank">
+            <img src={telegram} alt="Telegram Logo" />
+          </a>
+        </div>
+      </div> */}
     </div>
   );
 }
