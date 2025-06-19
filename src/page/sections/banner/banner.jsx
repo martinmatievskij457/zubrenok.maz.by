@@ -64,42 +64,45 @@ function Banner() {
           </ul>
         </nav>
       </header>
-      {/* <div className="banner__title">
-        <div className="banner__title-text">
-          ДЕТСКИЙ ОЗДОРОВИТЕЛЬНЫЙ ЛАГЕРЬ "ЗУБРЕНОК"
+      <div className="banner__content">
+        <div className="banner__title">
+          <div className="banner__title-text">
+            ДЕТСКИЙ ОЗДОРОВИТЕЛЬНЫЙ ЛАГЕРЬ "ЗУБРЕНОК"
+          </div>
+          <div className="banner__description">
+            Работники о/л «Зубренок» сделали все, чтобы детям в лагере было
+            уютно, как дома. Для этого на протяжении всей летней смены
+            организовываются образовательно-развлекательные и спортивные
+            мероприятия (игры, конкурсы и соревнования), с детьми работают
+            опытные воспитатели. Все это происходит на чистом воздухе, в 35 км
+            от Минска!
+          </div>
+          <div className="banner__button-wrapper">
+            <button className="banner__button">Купить путёвку</button>
+          </div>
         </div>
-        <div className="banner__description">
-          Работники о/л «Зубренок» сделали все, чтобы детям в лагере было уютно,
-          как дома. Для этого на протяжении всей летней смены организовываются
-          образовательно-развлекательные и спортивные мероприятия (игры,
-          конкурсы и соревнования), с детьми работают опытные воспитатели. Все
-          это происходит на чистом воздухе, в 35 км от Минска!
-        </div>
-        <div className="banner__button-wrapper">
-          <button className="banner__button">Купить путёвку</button>
+        <div className="banner__networks">
+          <div className="banner__networks__logo">
+            <a
+              href="https://www.youtube.com/channel/UCetonifniEfk9ZX1mCiM6Sw"
+              target="_blank"
+            >
+              <img src={youtube} alt="Youtube Logo" />
+            </a>
+          </div>
+          <div className="banner__networks__logo">
+            <a href="https://www.instagram.com/zubrenok_maz/" target="_blank">
+              <img src={instagram} alt="Instagam Logo" />
+            </a>
+          </div>
+          <div className="banner__networks__logo">
+            <a href="https://t.me/zubrenok_maz_official" target="_blank">
+              <img src={telegram} alt="Telegram Logo" />
+            </a>
+          </div>
         </div>
       </div>
-      <div className="networks_wrapper">
-        <div className="networks_logo">
-          <a
-            href="https://www.youtube.com/channel/UCetonifniEfk9ZX1mCiM6Sw"
-            target="_blank"
-          >
-            <img src={youtube} alt="Youtube Logo" />
-          </a>
-        </div>
-        <div className="networks_logo">
-          <a href="https://www.instagram.com/zubrenok_maz/" target="_blank">
-            <img src={instagram} alt="Instagam Logo" />
-          </a>
-        </div>
-        <div className="networks_logo">
-          <a href="https://t.me/zubrenok_maz_official" target="_blank">
-            <img src={telegram} alt="Telegram Logo" />
-          </a>
-        </div>
-      </div> */}
-      {/* Мобильное меню (как на желтом сайте) */}
+
       {isMenu && (
         <div className="mobile-menu">
           <div className="mobile-menu__header">
