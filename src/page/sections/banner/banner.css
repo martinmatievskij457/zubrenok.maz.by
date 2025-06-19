@@ -7,18 +7,56 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 7%; 
+    padding-right: 7%; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .banner__header {
     border-bottom: 1px solid;
-    border: 2px solid red;
     width: 100%;    
     min-height: 10vh;
+}
+
+.banner__menu {
+    display: none;
+}
+
+.banner__menu-header {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.banner__menu-button{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.burger-button {
+    width: 5vh;
+    height: 7vh;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.burger-button__line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--main-color);
+}
+
+.burger-button__active {
+    display: none;
 }
 
 .navigate-list {    
@@ -57,24 +95,41 @@
 
 @media (max-width: 1200px) {
     .banner__header {
-        min-height: 5vh;
-    }    
+        min-height: 7vh;
+    }   
+
+    .banner__menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .banner__navigate {
+        display: none;
+    }
 
     .navigate-list {
-        min-height: 5vh;
+        min-height: 7vh;
     }
 
     .navigate-list__item {
-        min-height: 5vh;
+        min-height: 7vh;
     }
 
     .navigate-list__img {
-        min-height: 5vh;
+        min-height: 7vh;
     }    
 
     .img {
         width: 70%;
     }
+}
+
+@media (min-width: 1200px) {
+    
+    .mobile-menu {
+        display: none;
+    } 
 }
 
 .banner__title {
@@ -240,6 +295,48 @@
     } 
 } 
 */ 
+
+
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--light2-black-color);
+  z-index: 150;
+  padding-left: 7%; 
+  padding-right: 7%; 
+}
+
+.mobile-menu__header {
+    text-align: end;
+    margin-bottom: 3rem;
+}
+
+.mobile-menu__close {
+  font-size: 3rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--main-color);
+}
+
+.mobile-menu__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.mobile-menu__item {
+    margin-bottom: 3rem;    
+}
+
+.mobile-menu__item:hover {
+    opacity: 0.7;
+}
 
 
 

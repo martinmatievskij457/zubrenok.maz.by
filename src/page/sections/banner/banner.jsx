@@ -9,42 +9,60 @@ import { useState } from "react";
 function Banner() {
   const [isMenu, setIsMenu] = useState(false);
 
+  const toggleMenu = () => {
+    setIsMenu(!isMenu);
+  };
+
   return (
     <div className="banner">
       <header className="banner__header">
-        {isMenu ? (
-          <h1></h1>
-        ) : (
-          <nav className="banner__navigate">
-            <ul className="navigate-list">
-              <li className="navigate-list__item">
-                <a href="#about">О нас</a>
-              </li>
-              <li className="navigate-list__item">
-                <a href="#questions">Вопросы</a>
-              </li>
-              <li className="navigate-list__item">
-                <a href="#tentcamp">Палаточный лагерь</a>
-              </li>
-              <li className="navigate-list__img">
-                <img
-                  src={zubrenokLogo}
-                  alt="Zubrenok Logo"
-                  className="img"
-                ></img>
-              </li>
-              <li className="navigate-list__item">
-                <a href="#races">График заездов</a>
-              </li>
-              <li className="navigate-list__item">
-                <a href="#routine">Распорядок дня</a>
-              </li>
-              <li className="navigate-list__img">
-                <img src={eye} alt="Eye" className="img"></img>
-              </li>
-            </ul>
-          </nav>
-        )}
+        <div className="banner__menu">
+          <div className="banner__menu-header">
+            <div className="banner__menu-logo">
+              <img src={zubrenokLogo} alt="Zubrenok Logo" className="img" />
+            </div>
+            <div className="banner__menu-title">ОЛ "Зубрёнок"</div>
+          </div>
+          <div className="banner__menu-button">
+            <div>
+              <button
+                className={`burger-button ${
+                  isMenu ? "burger-button__active" : ""
+                }`}
+                onClick={() => setIsMenu(true)}
+              >
+                <span className="burger-button__line"></span>
+                <span className="burger-button__line"></span>
+                <span className="burger-button__line"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <nav className="banner__navigate">
+          <ul className="navigate-list">
+            <li className="navigate-list__item">
+              <a href="#about">О нас</a>
+            </li>
+            <li className="navigate-list__item">
+              <a href="#questions">Вопросы</a>
+            </li>
+            <li className="navigate-list__item">
+              <a href="#tentcamp">Палаточный лагерь</a>
+            </li>
+            <li className="navigate-list__img">
+              <img src={zubrenokLogo} alt="Zubrenok Logo" className="img"></img>
+            </li>
+            <li className="navigate-list__item">
+              <a href="#races">График заездов</a>
+            </li>
+            <li className="navigate-list__item">
+              <a href="#routine">Распорядок дня</a>
+            </li>
+            <li className="navigate-list__img">
+              <img src={eye} alt="Eye" className="img"></img>
+            </li>
+          </ul>
+        </nav>
       </header>
       {/* <div className="banner__title">
         <div className="banner__title-text">
@@ -81,6 +99,45 @@ function Banner() {
           </a>
         </div>
       </div> */}
+      {/* Мобильное меню (как на желтом сайте) */}
+      {isMenu && (
+        <div className="mobile-menu">
+          <div className="mobile-menu__header">
+            <button className="mobile-menu__close" onClick={toggleMenu}>
+              ×
+            </button>
+          </div>
+          <nav className="mobile-menu__nav">
+            <ul className="mobile-menu__list">
+              <li className="mobile-menu__item">
+                <a href="#about" onClick={toggleMenu}>
+                  О нас
+                </a>
+              </li>
+              <li className="mobile-menu__item">
+                <a href="#questions" onClick={toggleMenu}>
+                  Вопросы
+                </a>
+              </li>
+              <li className="mobile-menu__item">
+                <a href="#tentcamp" onClick={toggleMenu}>
+                  Палаточный лагерь
+                </a>
+              </li>
+              <li className="mobile-menu__item">
+                <a href="#races" onClick={toggleMenu}>
+                  График заездов
+                </a>
+              </li>
+              <li className="mobile-menu__item">
+                <a href="#routine" onClick={toggleMenu}>
+                  Распорядок дня
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      )}
     </div>
   );
 }
