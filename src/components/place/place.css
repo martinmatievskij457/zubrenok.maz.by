@@ -1,4 +1,4 @@
-.place_wrapper {
+.place {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,10 +7,10 @@
     text-align: center;
 }
 
-.place_img {
+.place__img {
     margin-bottom: 1rem;
 }
 
-.place_label {
+.place__label {
     font-size: 1.6rem;
 }

@@ -17,7 +17,7 @@ function Page() {
           <div className="main_content">
             <Banner />
             <Races />
-            {/* <About /> */}
+            <About />
             {/* <Routine />
             <Tentcamp />
             <Questions />
