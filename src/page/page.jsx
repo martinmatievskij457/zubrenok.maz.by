@@ -18,8 +18,8 @@ function Page() {
             <Banner />
             <Races />
             <About />
-            {/* <Routine />
-            <Tentcamp />
+            <Routine />
+            {/* <Tentcamp />
             <Questions />
             <News /> */}
           </div>
