@@ -1,0 +1,23 @@
+[
+    {
+        "name": "photo1",
+        "src": "/images/photo1.png"
+    },
+    {
+        "name": "photo2",
+        "src": "/images/photo2.png"
+    },
+    {
+        "name": "photo3",
+        "src": "/images/photo3.png"
+    },
+    {
+        "name": "photo4",
+        "src": "/images/photo4.png"
+    },
+    {
+        "name": "photo5",
+        "src": "/images/photo5.png"
+    }
+]
+
