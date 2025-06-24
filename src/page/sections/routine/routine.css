@@ -4,6 +4,7 @@
     height: 20vh;
     padding-left: 7%;
     padding-right: 7%;
+    margin-bottom: 5%;
     background-image: url("../../../assets/images/Line2.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -82,7 +83,7 @@
     .routine-content {
         width: 100%;
     }
-    
+
     .routine__title {
         font-size: 1.4rem;
     }

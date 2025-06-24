@@ -1,41 +1,50 @@
 .tentcamp {
-    padding-left: 8.75rem;
-    padding-right: 8.75rem;
-    height: 30rem;
+    height: 70vh;
+    padding-left: 7%;
+    padding-right: 7%;
+/* 
+    border: 2px solid red; */
 }
 
-.tentcamp_title {
-    color: var(--black-color);
-}
-
-.content_wrapper {
+.tentcamp__content {
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* 
+    border: 2px solid blue; */
 }
 
-.tentcamp_title {
-    height: 20rem;
-    width: 30rem;
+.tentcamp__title-wrapper {
+    height: 100%;
+    width: 30%;
+    color: var(--black-color);
+    display: flex;
+    align-items: flex-start;
+/* 
+    border: 2px solid brown; */
+}
+
+.tentcamp__title {
+    height: 40vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    justify-content: space-between;
+    gap: 7%;
+/* 
+    border: 2px solid yellow; */
 }
 
-.tentcamp_title_text {
+.tentcamp__title__text {
     font-size: 2.4rem;
 }
 
-.tentcamp_title_info {
+.tentcamp__title__info {
     font-size: 1.2rem;
+    text-align: justify;
 }
 
-.button_text {
-    font-size: 1.2rem;
-}
-
-.tentcamp_title_button {
+.tentcamp__title__button {
     width: 15rem;
     border-radius: 0.5rem;
     background-color: var(--secondary-color);
@@ -46,27 +55,207 @@
     padding-bottom: 0.2rem;
 }
 
-.tentcamp_title_button:hover {
+.tentcamp__title__button:hover {
     cursor: pointer;
     opacity: 0.7;
 }
 
-.img_wrapper {
-    height: 30rem;
-    display: flex;
-    align-items: flex-end;
+.button__text {
+    font-size: 1.2rem;
 }
 
-.tent_wrapper {
-    height: 30rem;
+.tentcamp__images {
+    /* border: 2px solid goldenrod; */
+
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+.tentcamp__sign-wrapper {
+    height: 100%;
+    width: 30%;
     display: flex;
     justify-content: center;
-    align-items:flex-end;
+    align-items: flex-end;
+/* 
+    border: 2px solid brown; */
 }
 
-.line_wrapper {
-    position: relative;
-    top: -2rem;
-    left: -8.85rem;
+.tentcamp__sign {
+    height: 23vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+/* 
+    border: 2px solid yellow; */
 }
+
+.tentcamp__tent-wrapper {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+/* 
+    border: 2px solid brown; */
+}
+
+.tentcamp__tent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+/* 
+    border: 2px solid yellow; */
+}
+
+.tent__image-wrapper {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+/* 
+    border: 2px solid red; */
+}
+
+.bag__image-wrapper {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+/* 
+    border: 2px solid red; */
+}
+
+.tentcamp__curved {
+    position: relative;
+    top: -6%;
+    left: -9%;
+}
+
+@media (max-width: 1440px) {
+    .tentcamp {
+        height: 70vh;
+    }   
+
+    .tentcamp__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tentcamp__title-wrapper {
+        height: 40%;
+        width: 100%;        
+    }
+
+    .tentcamp__title {
+        height: 100%;
+        align-items: center;
+    }
+
+    .tentcamp__title__text {
+        text-align: center;
+    }
+
+    .tentcamp__title__info  {      
+        text-align: center;
+    }
+
+    .tentcamp__images {
+        height: 60%;
+        width: 100%;
+    }
+
+    .bag__image-wrapper {
+        padding-bottom: 2%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .tentcamp__curved {
+        top: -6%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .tentcamp__title-wrapper {
+        height: 50%;        
+    }
+
+    .tentcamp__images {
+        width: 100%;
+        height: 50%;
+    }
+
+    .tentcamp__sign {
+        height: 18vh;        
+    }
+
+    .tent__image-wrapper {
+        width: 60%;
+    }
+    
+    .bag__image-wrapper {
+        width: 40%;
+        padding-bottom: 0;
+    }
+
+    .image__sign {
+        width: 20vh;
+        height: auto;
+    }
+
+    .image__tent {
+        width: 20vh;
+        height: auto;
+    }
+
+    .image__bag {
+        width: 15vh;
+        height: auto;
+    }
+
+    .tentcamp__curved {
+        left: -10%;
+    }     
+}
+
+@media (max-width: 768px) {   
+}
+
+@media (max-width: 576px) {  
+    .tentcamp__title-wrapper {
+        height: 60%;        
+    }
+
+    .tentcamp__images {
+        height: 40%;
+    }
+
+    .tentcamp__sign {
+        height: 13vh;        
+    }
+
+    .tent__image-wrapper {
+        padding-bottom: 1%;
+    }
+
+    .image__sign {
+        width: 15vh;
+    }
+
+    .image__tent {
+        width: 15vh;
+    }
+
+    .image__bag {
+        width: 10vh;
+    }    
+}
+
 

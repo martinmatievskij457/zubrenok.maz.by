@@ -19,8 +19,8 @@ function Page() {
             <Races />
             <About />
             <Routine />
-            {/* <Tentcamp />
-            <Questions />
+            <Tentcamp />
+            {/* <Questions />
             <News /> */}
           </div>
         </main>
