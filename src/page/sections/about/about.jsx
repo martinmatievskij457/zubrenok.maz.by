@@ -70,21 +70,19 @@ function About() {
         </div>
       </div>
       <div className="about__block-description">
-        {/* <div className="block_3_title">
-          <div className="title_up">
-            <div className="title_up_text">
-              В ОЗДОРОВИТЕЛЬНОМ ЛАГЕРЕ ИМЕЮТСЯ:
-            </div>
-            <div className="title_up_info">
+        <div className="block-description__title">
+          <div className="title__text-wrapper">
+            <div className="title__text">В ОЗДОРОВИТЕЛЬНОМ ЛАГЕРЕ ИМЕЮТСЯ:</div>
+            <div className="title__info">
               Стадион, футбольное поле, баскетбольная и волейбольная площадки,
               игровые площадки, теннисный корт, теннисные столы, танцевальная
               площадка, спортзал, актовый зал, надувные горки, крытые бассейн и
               летняя эстрада.
             </div>
           </div>
-          <div className="title_down">
-            <div className="title_down_text">ОХРАНА И МЕДОБСЛУЖИВАНИЕ</div>
-            <div className="title_down_info">
+          <div className="title__text-wrapper">
+            <div className="title__text">ОХРАНА И МЕДОБСЛУЖИВАНИЕ:</div>
+            <div className="title__info">
               Круглосуточную охрану организует внутренний отдел охраны и
               сотрудники РОВД г. Минска. На территории лагеря расположен
               медпункт с изолятором, организовано дежурство машины скорой
@@ -92,11 +90,9 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="block_3_img_wrapper">
-          <div className="block_3_img">
-            <img src={image5} alt="Image5" />
-          </div>
-        </div> */}
+        <div className="block-description__img">
+          <img src={image5} alt="Image5" />
+        </div>
       </div>
     </div>
   );
