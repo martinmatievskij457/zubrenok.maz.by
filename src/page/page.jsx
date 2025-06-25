@@ -24,7 +24,7 @@ function Page() {
             <News />
           </div>
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );

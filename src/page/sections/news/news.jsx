@@ -11,7 +11,7 @@ function News() {
   }, []);
 
   return (
-    <div className="news">
+    <div className="news" id="news">
       <div className="news__title">
         <div className="news__title__text">Фото жизни лагеря:</div>
       </div>

@@ -1,111 +1,130 @@
 .footer {
-    background-color: var(--secondary-color);
-    padding: 0rem 8.75rem 1rem 8.75rem;
-}
-
-.footer_content {
     width: 100%;
-    display: flex;
-    margin-bottom: 3rem;
+    height: auto;
+    background-color: var(--secondary-color);
+    padding: 0% 7% 1% 7%;
+/* 
+    border: 2px solid red; */
 }
 
-.coordinates_wrapper {
-    width: 35%;
-    height: 40rem;
+.footer__content {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+/* 
+    border: 2px solid red; */
 }
 
-.logoZubrenok_wrapper {
-    width: 50%;
+.content__header {
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 
-.logoZubrenok_title {
+.header__logoZubrenok {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+/* 
+    border: 2px solid yellow; */
+}
+
+.header__logoZubrenok__title {
     font-size: 1.2rem;
 }
 
-.coordinates_text {
-    font-size: 0.8rem;
+.header__logoMaz {
+    width: auto;
+    height: 100%;
+/* 
+    border: 2px solid yellow; */
 }
 
-.iframe_yandexMap {
+.content__main {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+/* 
+    border: 2px solid red; */
+}
+
+.content__main__coordinates {
+    width: 40%;
+    height: auto;
+/* 
+    border: 2px solid yellow; */
+}
+
+.content__main__coordinates-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+/* 
+    border: 2px solid greenyellow; */
+}
+
+.content__coordinates__text {
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.map {
+    width: 50vh;
+    height: 50vh;
     border-radius: 1rem;
 }
 
-.contacts_wrapper {
-    width: 30%;
-    height: 34rem;
+.ana {
+    width: 60%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 6rem;
+    justify-content: space-around;
+/* 
+    border: 2px solid blue; */
 }
 
-.contacts_title {
+.content__main__contacts {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+/* 
+    border: 2px solid yellow; */
+}
+
+.contacts__wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+/* 
+    border: 2px solid red; */
+}
+
+.contacts__title {
     font-size: 1.2rem;
 }
 
-.contacts_phones_info {
+.contacts__phone__info {
     font-size: 0.8rem;
 }
 
-.contacts_phones_files_wrapper {
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.contacts_files_download {
+.contacts__download {
     font-size: 0.8rem;
     color: var(--light-gray-color);
-}
-
-.contacts_files_info {
-    font-size: 0.7rem;
-}
-
-.menu_wrapper {
-    width: 25%;
-    height: 34rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding-top: 6.4rem;
-    padding-bottom: 9rem;
-    padding-left: 6rem;
-}
-
-.menu_title {
-    font-size: 1.2rem;
-}
-
-.menu_text {
-    font-size: 0.8rem;
-}
-
-.menu_text:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
-
-.logoMAZ_wrapper {
-    width: 10%;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-}
-
-.coordination_label:hover {
-    cursor: pointer;
-}
-
-.coordination_checkbox {
-    margin-right: 0.5rem;
 }
 
 .link_block_download {
@@ -114,11 +133,117 @@
     cursor: auto;
 }
 
-.footer_bottom {
+.contacts__info {
+    font-size: 0.8rem;
+}
+
+.contacts__info__checkbox {
+    margin-right: 0.5rem;
+}
+
+.contacts__info__label {
+    cursor: pointer;
+}
+
+.content__main__menu {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+/* 
+    border: 2px solid yellow; */
+}
+
+.menu__title {
+    font-size: 1.2rem;
+}
+
+.menu__text {
+    font-size: 0.8rem;
+}
+
+.menu__text:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.footer__bottom {
     text-align: center;
 }
 
-.footer_bottom_text {
+.footer__bottom__text {
     color: var(--gray-color);
     font-size: 0.6rem;
+}
+
+@media (max-width: 1750px) {
+    .content__main__coordinates {
+        width: 45%;
+    }
+
+    .ana {
+        width: 55%;
+    }
+    
+}
+
+@media (max-width: 1440px) {
+    .content__main {
+        height: 120vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__main__coordinates {
+        width: 100%;
+    }
+
+    .content__main__coordinates-wrapper {
+        align-items: center;
+    }
+
+    .content__coordinates__text {
+        text-align: center;
+    }
+
+    .ana {
+        width: 100%;
+    }
+
+    .content__main__contacts {
+        text-align: center;
+    }
+
+    .content__main__menu {
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 1024px) {
+    
+    
+}
+
+@media (max-width: 768px) {
+    .footer__content {
+        gap: 1rem;
+    }
+
+    .map {
+        width: 45vh;
+        height: 45vh;
+    }    
+}
+
+@media (max-width: 567px) {
+    .map {
+        width: 40vh;
+        height: 40vh;
+    }       
 }
