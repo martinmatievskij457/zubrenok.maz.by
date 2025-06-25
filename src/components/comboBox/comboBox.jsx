@@ -7,10 +7,10 @@ function ComboBox({ question, answer }) {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
-    <div className="cmbx_wrapper">
-      <div className="cmbx_title" onClick={() => setIsVisible(prev => !prev)}>
-        <div className="cmbx_question">{question}</div>
-        <div className="cmbx_arrow">
+    <div className="combobox">
+      <div className="combobox__title" onClick={() => setIsVisible(prev => !prev)}>
+        <div className="title__question">{question}</div>
+        <div className="title__arrow">
           {isVisible ? (
             <img src={arrowUp} alt="Arrow" />
           ) : (
@@ -19,8 +19,8 @@ function ComboBox({ question, answer }) {
         </div>
       </div>
       {isVisible && (
-        <div className="cmbx_answer">
-          <div className="answer_text">{answer}</div>
+        <div className="combobox__answer">
+          <div className="answer__text">{answer}</div>
         </div>
       )}
     </div>

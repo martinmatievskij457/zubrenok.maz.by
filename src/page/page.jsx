@@ -20,8 +20,8 @@ function Page() {
             <About />
             <Routine />
             <Tentcamp />
-            {/* <Questions />
-            <News /> */}
+            <Questions />
+            {/* <News /> */}
           </div>
         </main>
         {/* <Footer /> */}
