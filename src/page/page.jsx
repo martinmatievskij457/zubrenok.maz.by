@@ -21,7 +21,7 @@ function Page() {
             <Routine />
             <Tentcamp />
             <Questions />
-            {/* <News /> */}
+            <News />
           </div>
         </main>
         {/* <Footer /> */}
