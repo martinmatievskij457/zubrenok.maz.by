@@ -11,7 +11,7 @@
     display: flex;   
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 2rem;       
 }
 
 .combobox__title:hover {
@@ -23,7 +23,28 @@
     padding: 2rem 1rem 2rem 1rem;
     text-align: justify;
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 300; 
+
+    /* Анимация появления */
+    animation: fadeIn 0.5s ease 0.3s;
+    opacity: 0;
+    transform: translateY(20px);
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.title__arrow img {
+    transition: transform 0.5s ease;
+  }
+
+.combobox__title.active .title__arrow img {
+    transform: rotate(180deg);
 }
 
 @media (max-width: 1024px) {

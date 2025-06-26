@@ -7,7 +7,7 @@ function Footer() {
   const [isChecked, setIsChecked] = useState(false);
 
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="footer__content">
         <div className="content__header">
           <div className="header__logoZubrenok">

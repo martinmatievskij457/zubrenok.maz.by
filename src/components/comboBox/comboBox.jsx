@@ -8,14 +8,13 @@ function ComboBox({ question, answer }) {
 
   return (
     <div className="combobox">
-      <div className="combobox__title" onClick={() => setIsVisible(prev => !prev)}>
+      <div
+        className={`combobox__title ${isVisible ? 'active' : ''}`}
+        onClick={() => setIsVisible((prev) => !prev)}
+      >
         <div className="title__question">{question}</div>
         <div className="title__arrow">
-          {isVisible ? (
-            <img src={arrowUp} alt="Arrow" />
-          ) : (
-            <img src={arrow} alt="Arrow" />
-          )}
+          <img src={arrow} alt="Arrow" />
         </div>
       </div>
       {isVisible && (

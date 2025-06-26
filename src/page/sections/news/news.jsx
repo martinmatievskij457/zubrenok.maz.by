@@ -7,7 +7,7 @@ function News() {
   useEffect(() => {
     fetch("/data/images.json")
       .then((response) => response.json())
-      .then((data) => setPhotos(data));
+      .then((data) => setPhotos(data))
   }, []);
 
   return (

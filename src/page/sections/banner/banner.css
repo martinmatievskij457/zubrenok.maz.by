@@ -15,7 +15,7 @@
     justify-content: space-between;    
 }
 
-.banner__header {
+.banner__header {    
     border-bottom: 1px solid;
     width: 100%;    
     min-height: 10vh;
@@ -129,11 +129,15 @@
 }
 
 .banner__networks{
+    position: fixed;
+    top: 25rem;
+    right: 1.5rem;
     width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 400;
 }
 
 .banner__networks__logo {
@@ -143,21 +147,27 @@
     padding-right: 0.4rem;
     border: 1px solid var(--main-color);
     border-radius: 50%;
-    margin-bottom: 0.7rem;    
+    margin-bottom: 0.7rem;  
+    background-color: var(--light3-black-color);
 }
 
 .networks_logo:hover {
     cursor: pointer;
 }
 
+.tg {
+    border: none;
+    outline: none;
+}
+
 .mobile-menu {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 16px;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: var(--light2-black-color);
-    z-index: 150;
+    z-index: 400;
     padding-left: 7%; 
     padding-right: 7%; 
   }
