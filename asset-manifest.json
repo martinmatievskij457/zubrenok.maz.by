@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/zubrenok.maz.by/static/css/main.19f3bf25.css",
-    "main.js": "/zubrenok.maz.by/static/js/main.5fa4414f.js",
+    "main.css": "/zubrenok.maz.by/static/css/main.3db00327.css",
+    "main.js": "/zubrenok.maz.by/static/js/main.9464a93e.js",
     "static/media/bg 1.png": "/zubrenok.maz.by/static/media/bg 1.fee79874e2f74be11a7c.png",
     "static/media/image5.png": "/zubrenok.maz.by/static/media/image5.2baf8cff0e826f78efaa.png",
     "static/media/image2.png": "/zubrenok.maz.by/static/media/image2.2d07f8fe09203e67f9f8.png",
     "static/media/image1.png": "/zubrenok.maz.by/static/media/image1.b75458dbf3422ef0bb72.png",
     "static/media/image3.png": "/zubrenok.maz.by/static/media/image3.688e14284764339f4da6.png",
     "static/media/image4.png": "/zubrenok.maz.by/static/media/image4.89b432f12e74e8120be1.png",
-    "static/media/tent.png": "/zubrenok.maz.by/static/media/tent.d407d979c402e0462e9a.png",
+    "static/media/tent.png": "/zubrenok.maz.by/static/media/tent.d427b61ff07576c5112d.png",
     "static/media/Line1.png": "/zubrenok.maz.by/static/media/Line1.fb04829a4fbb84bcb815.png",
-    "static/media/bag.png": "/zubrenok.maz.by/static/media/bag.0aa177eeac9b27bf1ff1.png",
+    "static/media/bag.png": "/zubrenok.maz.by/static/media/bag.01ff008076f68d50b91f.png",
     "static/media/Line2.png": "/zubrenok.maz.by/static/media/Line2.062ced28cfc099f4d604.png",
     "static/media/logo.png": "/zubrenok.maz.by/static/media/logo.78153d69d43ccc05e086.png",
     "index.html": "/zubrenok.maz.by/index.html",
-    "main.19f3bf25.css.map": "/zubrenok.maz.by/static/css/main.19f3bf25.css.map",
-    "main.5fa4414f.js.map": "/zubrenok.maz.by/static/js/main.5fa4414f.js.map"
+    "main.3db00327.css.map": "/zubrenok.maz.by/static/css/main.3db00327.css.map",
+    "main.9464a93e.js.map": "/zubrenok.maz.by/static/js/main.9464a93e.js.map"
   },
   "entrypoints": [
-    "static/css/main.19f3bf25.css",
-    "static/js/main.5fa4414f.js"
+    "static/css/main.3db00327.css",
+    "static/js/main.9464a93e.js"
   ]
 }
