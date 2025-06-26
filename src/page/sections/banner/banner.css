@@ -12,14 +12,22 @@
     padding-bottom: 5%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;    
+    justify-content: center;  
 }
 
 .banner__header {    
     border-bottom: 1px solid;
-    width: 100%;    
+    width: auto;    
     min-height: 10vh;
     margin-bottom: 10%;
+
+    position: fixed;
+    top: 0rem;
+    right: 7%;
+    left: 7%;
+    background-color: var(--light2-black-color);
+    backdrop-filter: blur(5px);
+    z-index: 500;
 }
 
 .banner__menu {
@@ -96,6 +104,7 @@
 .banner__content {
     display: flex;
     justify-content: space-between;
+    margin-top: 15rem;
 }
 
 .banner__title {
@@ -167,7 +176,7 @@
     width: 100%;
     height: 100%;
     background: var(--light2-black-color);
-    z-index: 400;
+    z-index: 600;
     padding-left: 7%; 
     padding-right: 7%; 
   }
