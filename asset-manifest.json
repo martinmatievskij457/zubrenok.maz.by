@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zubrenok.maz.by/static/css/main.3db00327.css",
-    "main.js": "/zubrenok.maz.by/static/js/main.9464a93e.js",
+    "main.css": "/zubrenok.maz.by/static/css/main.f4f384be.css",
+    "main.js": "/zubrenok.maz.by/static/js/main.0c6e9d0d.js",
     "static/media/bg 1.png": "/zubrenok.maz.by/static/media/bg 1.fee79874e2f74be11a7c.png",
     "static/media/image5.png": "/zubrenok.maz.by/static/media/image5.2baf8cff0e826f78efaa.png",
     "static/media/image2.png": "/zubrenok.maz.by/static/media/image2.2d07f8fe09203e67f9f8.png",
@@ -14,11 +14,11 @@
     "static/media/Line2.png": "/zubrenok.maz.by/static/media/Line2.062ced28cfc099f4d604.png",
     "static/media/logo.png": "/zubrenok.maz.by/static/media/logo.78153d69d43ccc05e086.png",
     "index.html": "/zubrenok.maz.by/index.html",
-    "main.3db00327.css.map": "/zubrenok.maz.by/static/css/main.3db00327.css.map",
-    "main.9464a93e.js.map": "/zubrenok.maz.by/static/js/main.9464a93e.js.map"
+    "main.f4f384be.css.map": "/zubrenok.maz.by/static/css/main.f4f384be.css.map",
+    "main.0c6e9d0d.js.map": "/zubrenok.maz.by/static/js/main.0c6e9d0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3db00327.css",
-    "static/js/main.9464a93e.js"
+    "static/css/main.f4f384be.css",
+    "static/js/main.0c6e9d0d.js"
   ]
 }
