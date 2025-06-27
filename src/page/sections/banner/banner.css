@@ -15,7 +15,7 @@
 
 .banner__header {    
     border-bottom: 1px solid;
-    width: auto;    
+    width: autoS;    
     min-height: 10vh;
     margin-bottom: 10%;
     position: fixed;
