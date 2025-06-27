@@ -25,7 +25,6 @@
     font-size: 1.2rem;
     font-weight: 300; 
 
-    /* Анимация появления */
     animation: fadeIn 0.5s ease 0.3s;
     opacity: 0;
     transform: translateY(20px);

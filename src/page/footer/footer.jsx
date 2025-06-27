@@ -38,7 +38,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="ana">
+          <div className="content__main__contacts-menu-wrapper">
             <div className="content__main__contacts">
               <div className="contacts__wrapper">
                 <div className="contacts__title">Телефоны:</div>

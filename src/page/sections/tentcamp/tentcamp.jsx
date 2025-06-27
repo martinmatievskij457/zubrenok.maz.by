@@ -31,7 +31,7 @@ function Tentcamp() {
           <div className="tentcamp__sign-wrapper">
             <div className="tentcamp__sign">
               <div className="tentcamp__sign__image">
-                <img src={picture} alt="Picture" className="image__sign"/>
+                <img src={picture} alt="Picture" className="image__sign" />
               </div>
             </div>
           </div>

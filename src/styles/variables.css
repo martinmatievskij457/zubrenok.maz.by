@@ -7,7 +7,14 @@
     --light2-black-color: rgba(0,0,0,0.6);
     --light3-black-color: rgba(0,0,0,0.4);
     --light4-black-color: rgba(0,0,0,0.8);
+    --light5-black-color: rgba(0,0,0,0.5);
     --gray-color: rgba(170, 170, 170, 1);
     --light-gray-color: rgba(255, 255, 255, 0.4);
     --transparent-color: rgba(255, 255, 255, 0);
+
+    --z-index-header: 130;
+    --z-index-networks: 120;
+    --z-index-tent-bag: 110;
+    --z-index-sign: 100;
 }
+

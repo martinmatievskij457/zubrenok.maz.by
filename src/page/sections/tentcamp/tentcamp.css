@@ -2,16 +2,12 @@
     height: 70vh;
     padding-left: 7%;
     padding-right: 7%;
-/* 
-    border: 2px solid red; */
 }
 
 .tentcamp__content {
     width: 100%;
     height: 100%;
     display: flex;
-/* 
-    border: 2px solid blue; */
 }
 
 .tentcamp__title-wrapper {
@@ -20,8 +16,6 @@
     color: var(--black-color);
     display: flex;
     align-items: flex-start;
-/* 
-    border: 2px solid brown; */
 }
 
 .tentcamp__title {
@@ -31,8 +25,6 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 7%;
-/* 
-    border: 2px solid yellow; */
 }
 
 .tentcamp__title__text {
@@ -65,8 +57,6 @@
 }
 
 .tentcamp__images {
-    /* border: 2px solid goldenrod; */
-
     width: 70%;
     height: 100%;
     display: flex;
@@ -78,8 +68,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-/* 
-    border: 2px solid brown; */
 }
 
 .tentcamp__sign {
@@ -88,8 +76,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-/* 
-    border: 2px solid yellow; */
 }
 
 .tentcamp__tent-wrapper {
@@ -98,8 +84,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-/* 
-    border: 2px solid brown; */
 }
 
 .tentcamp__tent {
@@ -108,8 +92,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-/* 
-    border: 2px solid yellow; */
 }
 
 .tent__image-wrapper {
@@ -120,9 +102,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    z-index: 300;
-/* 
-    border: 2px solid red; */
+    z-index: var(--z-index-tent-bag);
 }
 
 .bag__image-wrapper {
@@ -133,9 +113,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    z-index: 300;
-/* 
-    border: 2px solid red; */
+    z-index: var(--z-index-tent-bag);
 }
 
 .tentcamp__curved {

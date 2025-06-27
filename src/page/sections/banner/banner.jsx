@@ -4,7 +4,7 @@ import eye from "../../../assets/images/eye.png";
 import youtube from "../../../assets/images/youtube.png";
 import instagram from "../../../assets/images/instagram.png";
 import telegram from "../../../assets/images/telegram.png";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function Banner() {
   const [isMenu, setIsMenu] = useState(false);
@@ -97,7 +97,7 @@ function Banner() {
           </div>
           <div className="banner__networks__logo">
             <a href="https://t.me/zubrenok_maz_official" target="_blank">
-              <img src={telegram} alt="Telegram Logo" className="tg"/>
+              <img src={telegram} alt="Telegram Logo"/>
             </a>
           </div>
         </div>

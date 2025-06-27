@@ -1,6 +1,5 @@
 import "./comboBox.css";
 import arrow from "../../assets/images/arrow.png";
-import arrowUp from "../../assets/images/arrow_up.png";
 import { useState } from "react";
 
 function ComboBox({ question, answer }) {

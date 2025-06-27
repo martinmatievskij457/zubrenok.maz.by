@@ -1,5 +1,3 @@
-@import url("../../../styles/variables.css");
-
 .races {
     background-color: var(--secondary-color);
     width: auto;
