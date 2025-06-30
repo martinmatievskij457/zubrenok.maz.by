@@ -5,7 +5,11 @@ function Questions() {
   return (
     <div className="questions" id="questions">
       <div className="questions__title">Вопросы</div>
-      <div className="questions__combobox">
+      <div
+        className="questions__combobox"
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+      >
         <ComboBox
           question="Является ли ВОЛ «ЗУБРЁНОК» лагерем только для детей сотрудников ОАО «МАЗ» -управляющая компания холдинга «БЕЛАВТОМАЗ»?"
           answer="Путевки в воспитательно-оздоровительный лагерь 'Зубрёнок' доступны в первую очередь для детей сотрудников ОАО «МАЗ» - управляющая компания холдинга «БЕЛАВТОМАЗ». Сторонние лица могут приобрести путевку в ВОЛ 'Зубрёнок' ПРИ НАЛИЧИИ МЕСТ после распределения путевок сотрудникам предприятия."

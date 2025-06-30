@@ -15,7 +15,7 @@ html, body {
     background-color: var(--main-color);
     color: var(--main-color);
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 a {

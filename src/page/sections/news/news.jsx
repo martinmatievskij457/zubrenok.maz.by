@@ -7,7 +7,7 @@ function News() {
   useEffect(() => {
     fetch("/data/images.json")
       .then((response) => response.json())
-      .then((data) => setPhotos(data))
+      .then((data) => setPhotos(data));
   }, []);
 
   return (
@@ -18,7 +18,13 @@ function News() {
       <div className="news__photo">
         <div className="news__photo-wrapper">
           {photos.map((photo, index) => (
-            <img src={photo.src} alt={photo.name} key={index} />
+            <img
+              src={photo.src}
+              alt={photo.name}
+              key={index}
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+            />
           ))}
         </div>
       </div>

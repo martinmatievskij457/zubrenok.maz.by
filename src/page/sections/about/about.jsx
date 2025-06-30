@@ -16,7 +16,11 @@ function About() {
   return (
     <div className="about" id="about">
       <div className="about__block-comfort">
-        <div className="block-comfort__title">
+        <div
+          className="block-comfort__title"
+          data-aos="flip-left"
+          data-aos-duration="1000"
+        >
           <div className="title__text">С нами уютно!</div>
           <div className="title__info">
             Работники о/л «Зубренок» сделали все, чтобы детям в лагере было
@@ -29,16 +33,32 @@ function About() {
         </div>
         <div className="block-comfort__images">
           <div className="block-comfort__img-wrapper">
-            <div className="block-comfort__img">
+            <div
+              className="block-comfort__img"
+              data-aos="fade-down-right"
+              data-aos-duration="1000"
+            >
               <img src={image2} alt="Image 2" />
             </div>
-            <div className="block-comfort__img">
+            <div
+              className="block-comfort__img"
+              data-aos="fade-down-left"
+              data-aos-duration="1000"
+            >
               <img src={image1} alt="Image 1" />
             </div>
-            <div className="block-comfort__img">
+            <div
+              className="block-comfort__img"
+              data-aos="fade-up-right"
+              data-aos-duration="1000"
+            >
               <img src={image4} alt="Image 4" />
             </div>
-            <div className="block-comfort__img">
+            <div
+              className="block-comfort__img"
+              data-aos="fade-up-left"
+              data-aos-duration="1000"
+            >
               <img src={image3} alt="Image 3" />
             </div>
           </div>
@@ -52,7 +72,11 @@ function About() {
             </div>
           </div>
           <div className="content__places-wrapper">
-            <div className="content__places">
+            <div
+              className="content__places"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <Place picture={home} label="5 Корпусов" />
               <Place picture={canteen} label="2 Столовые" />
               <Place picture={hospital} label="Медицинский пункт" />
@@ -61,7 +85,11 @@ function About() {
           </div>
         </div>
         <div className="block-places__picture">
-          <div className="picture__sign">
+          <div
+            className="picture__sign"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <img src={sign} alt="Picture" />
           </div>
           {/* <div className="picture__curved">
@@ -90,7 +118,11 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="block-description__img">
+        <div
+          className="block-description__img"
+          data-aos="zoom-in-left"
+          data-aos-duration="1000"
+        >
           <img src={image5} alt="Image5" />
         </div>
       </div>
